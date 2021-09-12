@@ -1,13 +1,15 @@
-[debug] [2021-09-12T14:06:18.384Z] ----------------------------------------------------------------------
-[debug] [2021-09-12T14:06:18.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\volda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2021-09-12T14:06:18.387Z] CLI Version:   9.18.0
-[debug] [2021-09-12T14:06:18.387Z] Platform:      win32
-[debug] [2021-09-12T14:06:18.387Z] Node Version:  v14.17.6
-[debug] [2021-09-12T14:06:18.388Z] Time:          Sun Sep 12 2021 16:06:18 GMT+0200 (heure d’été d’Europe centrale)
-[debug] [2021-09-12T14:06:18.389Z] ----------------------------------------------------------------------
+[debug] [2021-09-12T16:08:33.548Z] ----------------------------------------------------------------------
+[debug] [2021-09-12T16:08:33.550Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\volda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-12T16:08:33.550Z] CLI Version:   9.18.0
+[debug] [2021-09-12T16:08:33.550Z] Platform:      win32
+[debug] [2021-09-12T16:08:33.551Z] Node Version:  v14.17.6
+[debug] [2021-09-12T16:08:33.552Z] Time:          Sun Sep 12 2021 18:08:33 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2021-09-12T16:08:33.553Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-09-12T14:06:18.452Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-09-12T14:06:18.452Z] > authorizing via signed-in user (vol.dans.la.galaxi@gmail.com)
-[debug] [2021-09-12T14:06:18.452Z] [iam] checking project documentation-florian-grasser for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2021-09-12T14:06:18.455Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/documentation-florian-grasser:testIamPermissions  
- {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-12T16:08:33.556Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-09-12T16:08:33.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-12T16:08:33.659Z] > authorizing via signed-in user (vol.dans.la.galaxi@gmail.com)
+[debug] [2021-09-12T16:08:33.659Z] [iam] checking project documentation-florian-grasser for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-12T16:08:33.660Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-12T16:08:33.661Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

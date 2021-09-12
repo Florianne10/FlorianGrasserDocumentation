@@ -4,11 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C# fiche de révision</title>
+    <title>Florian Grasser - C# fiche de révision</title>
 </head>
 
 <body>
-    <iframe src="https://pastebin.com/embed_iframe/ifEG3daL?theme=dark" style="border:none;width:100%"></iframe>
+    <h1>Fiche de révision C#</h1>
+
+    <h2>I-Les bases:</h2>
+
+    <h3>A-Le corp du code en C#</h3>
+
+    <p>
+        Bien que c'est facultatif, on commence toujours par inporter System, afin d'avoir accès à ses méthode sans
+        devoir
+        notez à chaque fois le mot System
+    </p>
+
+    <iframe src="https://pastebin.com/embed_iframe/3wSfJG47?theme=dark"
+        style="border:none;width:100%;height:85px"></iframe>
+
+    L'étape suivente est de créé une class:
+    <iframe src="https://pastebin.com/embed_iframe/PkKwJy2M?theme=dark" style="border:none;width:100%"></iframe>
+    <em>PS: En C# <mark>//text</mark> permet de faire un commentaire sur une seul ligne! On peut faire un
+        commentaire sur plusieurs lignes
+        avec <mark>/* texte */</mark>!</em>
+    <br>
+    <br>
+    Ensuite ils nous faut notre point d'entrée du program, la fonction Main:
+    <iframe src="https://pastebin.com/embed_iframe/CbGndsHF?theme=dark" style="border:none;width:100%"></iframe>
+
+    <p>
+        <em>PS: void signifie que ça ne renvoit rien</em>
+
+        <br>
+        <br>
+
+        Le tout nous donne notre fameux corp du proramme:
+    </p>
+    <iframe src="https://pastebin.com/embed_iframe/LUqjY95K?theme=dark" style="border:none;width:100%"></iframe>
+
+    <h3>B-Les variables</h3>
+
+    <p>
+        Une variable est une boite mémoire accessible par un nom. On peut imaginer la mémoire de notre programme comme
+        un
+        très gros meuble dans le quel il y a des tiroires. Sur chaque tirroire il y à une étiquette, l'étiquette est le
+        nom de la variable, ce qui nous permet de s'avoir ou est stocker la valeur pour la récupérer.
+        <br>
+        Les varibles peuvent stocker plusieurs type de données, comme:
+    <ul>
+        <li>string: une chaîne de caractére</li>
+        <li>int: un nombre entier</li>
+        <li>double et float: un nombre décimal (la différence est le nombre de bits utiliser en mémoire)</li>
+        <li>bool: vraie ou faux, true ou false car c'est en anglais</li>
+    </ul>
+    <br>
+    Il est important de donnée aux variables un nom qui décrit ce que elle stocke pour mieux si retrouver. Par exemple
+    une variable qui stocke un age, on vas l'appeler age et pas BobLeponge. Mais ils ne faut pas oublier que les noms
+    des variables doivent respecter ses régles:
+    <ul>
+        <li>pas d'espace</li>
+        <li>pas de caracté seciaux, exemples: é,', à, en revanche l'underscore aussi connu sous le nom de tiret bas "_"
+            peut être utiliser</li>
+        <li>le premier character du nom</li>
+        <li>n'utiliser pas un nom réserver, par exemple: int, void, public, Console...</li>
+    </ul>
+    Si on ne respecte pas ces régles on peut avoir des probléme de compilation, ou des comportement très bizzard de
+    notre code.
+    <br>
+
+    En C# il faut d'abbord déclarer les variables avant de les utilisée. Ensuite on peut faire leur initialisation. On
+    n'oublie pas de préçiser leur type lors de la déclaration.
+    <br><br>
+    Quelques exemples:
+    </p>
+    <iframe src="https://pastebin.com/embed_iframe/2QfuaAuf?theme=dark"
+        style="border:none;width:100%;height: 325px;"></iframe>
+
+
+    <h3>C-Console.WriteLine et Console.ReadLine</h3>
+    <p>
+        Console.WriteLine() permet d'afficher du texte dans la console.
+
+        <iframe src="https://pastebin.com/embed_iframe/RFH5QfEK?theme=dark" style="border:none;width:100%"></iframe>
+
+        Console.ReadLine() permet de récupérer le texte saisie par l'utilisateur dans la console et de le stocker dans
+        une variable par une affection. Attention, on ce retrouve avec une chaine de caractére. Si on veut un nombre il
+        faudra faire un double.Parse()
+        <iframe src="https://pastebin.com/embed_iframe/uwy8uVPu?theme=dark"
+            style="border:none;width:100%;height: 215px;"></iframe>
+    </p>
+
+    <h2>II-Procédures et Fonctions</h2>
+    <h3>A.1-Les procédures d'affichages</h3>
+
+    <p>Une procédure d'affichage permet de mettre une partie de code destinner à afficher quelque chose en dehors de
+        Main pour rendre le code plus propre. On peut l'appeler en lui passant des arguments, voilà ça structure:</p>
+    <iframe src="https://pastebin.com/embed_iframe/zZuMzrYu?theme=dark" style="border:none;width:100%"></iframe>
+
+    <p>Un exemple:</p>
+    <iframe height="500" src="https://pastebin.com/embed_iframe/ifEG3daL?theme=dark"
+        style="border:none;width:100%"></iframe>
 </body>
 
 </html>
