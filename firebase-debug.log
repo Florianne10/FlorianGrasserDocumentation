@@ -1,0 +1,13 @@
+[debug] [2021-09-12T14:06:18.384Z] ----------------------------------------------------------------------
+[debug] [2021-09-12T14:06:18.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\volda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-12T14:06:18.387Z] CLI Version:   9.18.0
+[debug] [2021-09-12T14:06:18.387Z] Platform:      win32
+[debug] [2021-09-12T14:06:18.387Z] Node Version:  v14.17.6
+[debug] [2021-09-12T14:06:18.388Z] Time:          Sun Sep 12 2021 16:06:18 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2021-09-12T14:06:18.389Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-12T14:06:18.452Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-12T14:06:18.452Z] > authorizing via signed-in user (vol.dans.la.galaxi@gmail.com)
+[debug] [2021-09-12T14:06:18.452Z] [iam] checking project documentation-florian-grasser for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-12T14:06:18.455Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/documentation-florian-grasser:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
